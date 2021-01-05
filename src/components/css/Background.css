@@ -1,0 +1,11 @@
+body,html{
+  height:100%;
+}
+.bg
+{
+    background-image: url('http://cdn.pastemagazine.com/www/articles/product_red_box.jpg');
+    height:65vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

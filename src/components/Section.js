@@ -8,8 +8,11 @@ import Payment from './section/Payment'
 
 export class Section extends Component {
     render() {
+        
         return (
+          
             <section>
+                    <h1>Welcome to E-kart,a mobile shopping site...</h1>
                     <Route path="/" component={Products} exact />
                     <Route path="/product" component={Products} exact  />
                     <Route path="/product/:id" component={Details} exact />

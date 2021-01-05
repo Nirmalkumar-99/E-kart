@@ -9,7 +9,7 @@ header{
 header .logo a{
     text-decoration: none;
     text-transform: uppercase;
-    color: rgb(228, 21, 21);
+    color: rgb(228, 114, 21);
 }
 header nav{
     display: flex;
