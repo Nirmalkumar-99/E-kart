@@ -8,7 +8,7 @@ class Back extends Component
     return(
         
         <div className="bg">
-        <h1>Welcome to E-Kart Mobiles, best Mobile shopping site</h1>
+
         </div>
         );
     }
