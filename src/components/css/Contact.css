@@ -4,3 +4,16 @@
   height: 500px;
  
 }
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(2, 2, 2);
+  }
+  
+  /* Bottom left text */
+  .centered {
+    position:absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }

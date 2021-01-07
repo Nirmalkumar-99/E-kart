@@ -1,29 +1,3 @@
 body,html{
   height:100%;
 }
-body{
-	margin:0px;
-	padding:0px;
-	background-color:#161821;
-	font-family:montserrat,sans-serif;
-	background-image:url(../images/shadow.png);
-	background-attachment:fixed;
-	background-size:cover;
-	background-repeat:no-repeat;
-	
-	
-	
-	}
-	
-  
-	
-	.naviagtion-conatiner{
-		position:absolute;
-		top:0px;
-		
-		
-		width:100%;
-		padding:10px;
-		
-		box-sizing:border-box;
-		}

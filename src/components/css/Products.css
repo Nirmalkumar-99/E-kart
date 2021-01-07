@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-color: rgb(112, 110, 112);
 }
 .card{
     width: 310px;
@@ -12,6 +13,7 @@
     padding: 10px;
     box-shadow: 2px 8px 20px rgb(0, 0, 0);
     margin: 10px;
+    background-color: rgb(115, 114, 116);
 }
 .card:hover{
     box-shadow: none;
@@ -33,10 +35,10 @@
     color: #333;
 }
 .card h3 a:hover{
-    color: crimson;
+    color: rgb(255, 255, 255);
 }
 .card span{
-    color: crimson;
+    color: rgb(0, 0, 0);
 }
 .card p{
     margin: 10px 0;

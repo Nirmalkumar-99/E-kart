@@ -1,6 +1,7 @@
 section .cart{
     position: relative;
     border: 1px solid #ccc;
+    background-color: rgb(189, 186, 186);
 }
 .amount span{
     color: crimson;

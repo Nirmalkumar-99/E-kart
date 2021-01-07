@@ -8,16 +8,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  
-  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    background-color: rgb(112, 110, 112);
 }
 .app{
-  max-width: 1200px;
+  max-width: 1330px;
   width: 100%;
   margin: 0 auto;
 }
