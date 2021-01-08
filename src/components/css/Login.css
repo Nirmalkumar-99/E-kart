@@ -1,9 +1,24 @@
-.mail
-{
-    background-color: dimgrey;
-    text-align: center;
-}
+.im{
+  
+    width: 1320px;
+    height: 550px;
+   
+  }
+  .container {
+      position: relative;
+      text-align: center;
+      color: rgb(2, 2, 2);
+    }
+    
+    /* Bottom left text */
+    .centered {
+      position:absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: forestgreen;
+    }
 h1
 {
-    color: rgb(0, 255, 221);
+    color: rgb(0, 0, 0);
 }

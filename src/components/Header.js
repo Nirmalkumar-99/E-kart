@@ -4,6 +4,7 @@ import Close from './svg/times-solid.svg'
 import CartIcon from './svg/shopping-cart-solid.svg'
 import {Link} from 'react-router-dom'
 import './css/Header.css'
+import logo from './elogo.webp';
 import {DataContext} from './Context'
 export class Header extends Component {
     static contextType = DataContext;
@@ -25,6 +26,7 @@ export class Header extends Component {
                 <div className="menu" onClick={this.menuToggle}>
                     <img src={Menu} alt="" width="20"/>
                 </div>
+              
                 <div className="logo">
                     <h1><Link to="/">E-Kart</Link></h1>
                 </div>

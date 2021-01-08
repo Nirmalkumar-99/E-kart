@@ -7,6 +7,7 @@ import Payment from './section/Payment'
 import Contact from './section/Contact';
 import Home from './section/Home';
 import Login from './section/Login';
+import Register from './section/Register';
 
 
 export class Section extends Component {
@@ -24,6 +25,7 @@ export class Section extends Component {
                     <Route path="/contact" component={Contact} exact />
                     <Route path="/home" component={Home} exact />
                     <Route path="/login" component={Login} exact />
+                    <Route path="/register" component={Register} exact />
 
             </section>
         )
